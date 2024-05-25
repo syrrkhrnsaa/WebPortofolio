@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portofolio Syira</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta name="keywords" content="global, template, html, sass, jquery" />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <style>
+    .tool-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff; /* Ubah warna latar belakang */
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Ubah bayangan */
+      overflow-y: auto;
+      height: 400px;
+    }
+  
+    .tool {
+      width: 200px;
+      margin: 20px;
+      text-align: center;
+      background-color: #0C0C0C; /* Ubah warna latar belakang */
+      border-radius: 8px;
+      padding: 15px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .tool:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tingkatkan bayangan */
+    }
+  
+    .tool img {
+      max-width: 100%; /* Perkecil ukuran gambar agar proporsional */
+      height: auto;
+    }
+  
+    .tool-title {
+      font-size: 18px; /* Tingkatkan ukuran judul */
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  
+    .tool-description {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+  
+  <body>
+    <!-- notification for small viewports and landscape oriented smartphones -->
+    <div class="device-notification">
+      <a class="device-notification--logo" href="#0">
+        <img src="assets/img/logo.png" alt="Global" />
+        <p>Portofolio</p>
+      </a>
+      <p class="device-notification--message">
+        Global has so much to offer that we must request you orient your device
+        to portrait or find a larger screen. You won't be disappointed.
+      </p>
+    </div>
+
+    <div class="perspective effect-rotate-left">
+      <div class="container">
+        <div class="outer-nav--return"></div>
+        <div id="viewport" class="l-viewport">
+          <div class="l-wrapper">
+            <header class="header">
+              <a class="header--logo" href="#0">
+                <img src="assets/img/logo.png" alt="Global" />
+                <p>Portofolio</p>
+              </a>
+              <div class="header--nav-toggle">
+                <span></span>
+              </div>
+            </header>
+            <nav class="l-side-nav">
+              <ul class="side-nav">
+                <li class="is-active"><span>Home</span></li>
+                <li><span>Works</span></li>
+                <li><span>About</span></li>
+                <li><span>Contact</span></li>
+                <li><span>Hire us</span></li>
+              </ul>
+            </nav>
+            <ul class="l-main-content main-content">
+              <li class="l-section section section--is-active">
+                <div class="intro">
+                  <div class="intro--banner">
+                    <h1>Syira<br />Khoerunisa<br /></h1>
+                    <h2 style="margin-top: 1px">Welcome to my Portofolio</h2>
+                    <p>
+                      Saya adalah seorang mahasiswa program studi Teknik
+                      Informatika di Politeknik Negeri Bandung yang penuh
+                      semangat dan berkomitmen dalam mengembangkan diri di
+                      bidang informatika, administrasi, dan desain grafis. Saya
+                      telah aktif terlibat dalam kegiatan pengembangan diri dan
+                      organisasi, yang memperluas pemahaman saya tentang
+                      industri dan meningkatkan keterampilan kepemimpinan saya.
+                      Dengan kemampuan kreatif, inovatif, dan detail-oriented,
+                      saya memiliki pengalaman yang kuat dalam pemrograman dan
+                      merancang antarmuka pengguna yang intuitif.
+                    </p>
+                  </div>
+                  <div class="intro--options">
+                    <a href="#0">
+                      <h3>Pendidikan</h3>
+                      <p>
+                        Politeknik Negeri Bandung<br />2022 - Sekarang<br />
+                      </p>
+                    </a>
+                    <a href="#0">
+                      <h3>Pengalaman organisasi</h3>
+                      <p>
+                        Badan Eksekutif Mahasiswa<br />
+                        Himpunan Mahasiswa<br /><br />
+                      </p>
+                    </a>
+                    <a href="#0">
+                      <h3>Role</h3>
+                      <p style="margin: 2px">Backend Developer</p>
+                      <p style="margin: 2px">Frontend Developer</p>
+                      <p style="margin: 2px">Fullstack Developer</p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <h1 style= "text-align: center;  margin-top: 80px">Kemampuan</h1>
+                <div class="tool-container">
+                  <div class="tool">
+                    <img src="assets/img/CI.png" alt="CodeIgniter" />
+                    <p class="tool-title">CodeIgniter</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/laravel.png" alt="Laravel" />
+                    <p class="tool-title">Laravel</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/flutter.png" alt="Flutter" />
+                    <p class="tool-title">Flutter</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/postgre.png" alt="PostgreSQL" />
+                    <p class="tool-title">PostgreSQL</p>
+                    </p>
+                  </div>
+                  <!-- Tambahkan alat lainnya di sini -->
+                  <div class="tool">
+                    <img src="assets/img/html.png" alt="HTML" />
+                    <p class="tool-title">HTML</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/css.png" alt="CSS" />
+                    <p class="tool-title">CSS</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/react.png" alt="React" />
+                    <p class="tool-title">React</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/c.png" alt="C" />
+                    <p class="tool-title">C</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/java.png" alt="Java" />
+                    <p class="tool-title">Java</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/python.png" alt="Python" />
+                    <p class="tool-title">Python</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/php.png" alt="PHP" />
+                    <p class="tool-title">PHP</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/dart.png" alt="Dart" />
+                    <p class="tool-title">Dart</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/excel.png" alt="Microsoft Excel" />
+                    <p class="tool-title">Microsoft Excel</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/ppt.png" alt="Microsoft PowerPoint" />
+                    <p class="tool-title">Microsoft PowerPoint</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/word.png" alt="Microsoft Word" />
+                    <p class="tool-title">Microsoft Word</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/figma.png" alt="Figma" />
+                    <p class="tool-title">Figma</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/ps.png" alt="Adobe Photoshop" />
+                    <p class="tool-title">Adobe Photoshop</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/ai.png" alt="Adobe Illustrator" />
+                    <p class="tool-title">Adobe Illustrator</p>
+                    </p>
+                  </div>
+                  <div class="tool">
+                    <img src="assets/img/canva.png" alt="Canva" />
+                    <p class="tool-title">Canva</p>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="about">
+                  <div style= "text-align: center;  margin-top: 80px" class="about--banner">
+                    <h2>My<br />Project<br /></h2>
+                    <a href="project.html"
+                      >Selengkapnya
+                      <span>
+                        <svg
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 150 118"
+                          style="enable-background: new 0 0 150 118"
+                          xml:space="preserve"
+                        >
+                          <g
+                            transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
+                          >
+                            <path
+                              d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
+                            />
+                          </g>
+                        </svg>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="contact">
+                  <div class="contact--lockup">
+                    <div class="modal">
+                      <div class="modal--information">
+                        <p>My Contact</p>
+                      </div>
+                      <ul class="modal--options">
+                        <li><a href="https://wa.me/qr/EAQVHENQS3HPG1">WhatsApp</a></li>
+                        <li><a href="https://github.com/syrrkhrnsaa">Github</a></li>
+                        <li>
+                          <a href="mailto:syirak23@gmail.com">gmail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="hire">
+                  <h2> Thank You </h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="outer-nav">
+        <li class="is-active">Home</li>
+        <li>Works</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Thanks</li>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <script src="assets/js/functions-min.js"></script>
+  </body>
+</html>

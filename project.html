@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: #1a1a1a;
+        color: #fff;
+        font-family: "Arial", sans-serif;
+      }
+
+      header {
+        background: linear-gradient(135deg, #292929, #0a0a0a);
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+        margin-bottom: 40px;
+        border-radius: 0 0 50% 50%;
+      }
+
+      .about,
+      .projects {
+        margin: 20px auto;
+        max-width: 1000px;
+      }
+
+      .about h2,
+      .projects h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #fff;
+      }
+
+      .project {
+        background-color: #333;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8);
+      }
+
+      .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .card-title {
+        color: #fff;
+        font-weight: bold;
+      }
+
+      .card-text {
+        color: #ccc;
+      }
+
+      footer {
+        background: linear-gradient(135deg, #292929, #0a0a0a);
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+      }
+
+      .fa {
+        margin-right: 10px;
+      }
+
+      .navbar {
+        margin-bottom: 20px;
+      }
+
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+        color: #fff !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Project</h1>
+    </header>
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card project">
+              <img
+                src="assets/img/1.png"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyek Aplikasi TransAkhirat</h5>
+                <p class="card-text">
+                  Ini adalah aplikasi yang memuat laporan keuangan masjid secara
+                  transparan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img
+                src="assets/img/2.png"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dashboard TransAkhirat</h5>
+                <p class="card-text">
+                  Ini adalah aplikasi yang memuat laporan keuangan masjid secara
+                  transparan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img
+                src="assets/img/3.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wedding Invitation Digital</h5>
+                <p class="card-text">
+                  Website pemesanan undangan pernikahan secara digital
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img
+                src="assets/img/4.png"
+                class="card-img-top"
+                alt="Project 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Berita Online</h5>
+                <p class="card-text">
+                  Website yang berisi mengenai berita-berita terkini
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img
+                src="assets/img/5.png"
+                class="card-img-top"
+                alt="Project 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Online shop Sederhana</h5>
+                <p class="card-text">Website toko online</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Portfolio Saya</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
